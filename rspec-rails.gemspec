@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   end
 
   s.add_runtime_dependency(%q<activesupport>, [">= 3.0", "< 4.3"])
-  s.add_runtime_dependency(%q<actionpack>, [">= 3.0", "< 4.3"])
+  s.add_runtime_dependency(%q<actionpack>, [">= 3.0", "< 5.1"])
   s.add_runtime_dependency(%q<railties>, [">= 3.0", "< 4.3"])
   %w[core expectations mocks support].each do |name|
     if RSpec::Rails::Version::STRING =~ /[a-zA-Z]+/ # prerelease builds
